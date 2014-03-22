@@ -6,13 +6,19 @@ Snouden is the char device driver that XORs input data and generates md5 for inp
 Build and run string
 ====================
 
-make clean
-make
-insmod snouden
-echo "Hey nigga" //or whatever you want
-cat /dev/snouden0
-gmesg //for md5 output
-rmmod snouden
+`make clean`
+
+`make`
+
+`insmod snouden`
+
+`echo "Hey fool"` //or whatever you want
+
+`cat /dev/snouden0`
+
+`gmesg //for md5 output`
+
+`rmmod snouden`
 
 Repeat!
 
